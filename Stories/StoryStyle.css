@@ -1,0 +1,92 @@
+/* RESET-ish */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* LAYOUT */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  line-height: 1.7;
+  padding: 2rem max(1rem, 10%);
+}
+
+/* HEADERS */
+h1, h2, h3, h4 {
+  color: #ffb3ec;
+  margin: 2rem 0 1rem;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.2rem; }
+
+/* PARAGRAPHS & TEXT */
+p {
+  margin-bottom: 1.25rem;
+  font-size: 1.1rem;
+}
+
+em {
+  font-style: italic;
+  color: #ffd3e0;
+}
+
+strong {
+  font-weight: bold;
+  color: #ff66c4;
+}
+
+/* LINKS */
+a {
+  color: #88e1f2;
+  text-decoration: none;
+  border-bottom: 1px dotted #88e1f2;
+}
+
+a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* LISTS */
+ul {
+  margin: 1rem 0 1rem 2rem;
+  list-style: disc;
+}
+
+ol {
+  margin: 1rem 0 1rem 2rem;
+  list-style: decimal;
+}
+
+/* BLOCKQUOTES */
+blockquote {
+  border-left: 3px solid #ff66c4;
+  padding-left: 1rem;
+  color: #ccc;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+/* HR */
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 2rem 0;
+}
+
+/* CONTENT WRAPPER */
+#content {
+  margin-top: 2rem;
+}
+#count{
+  text-decoration: underline;
+  color: #424242;
+  font-size: 0.9rem;
+}
