@@ -12,19 +12,41 @@ var messages = [
   "More stories coming when i remember to update my websites!",
   "Null",
   "Remember to be kind to yourself",
+  "I like men",
+  "The life cycle of a flounder confuses me",
+  "Not the shiniest spoon in the shed.",
+  "Impress your enemies with the amount of piss you can produce!"
 ];
 
 var titles = [
   "I am gay",
   "I like men",
   "Blup.gay",
-  "Now with 20% less JS",
+  "Now with 20% more JS",
   "CSS is overrated",
   "Gay nerd central",
   "not a virus",
   "Eat a cookie",
   "I like cock",
+  "Now with 20% less JS",
 ];
+
+var WebTitles = [
+  "Blup's Fantastic Library",
+  "Blup's Shit Library",
+  "Just Blup's Library",
+  "I like men",
+  "[Your ad here!]",
+  "",
+  "Chat we're cooked",
+  "Rawdogging life",
+];
+
+function changeWebTitle(){
+  return WebTitles[Math.floor(Math.random() * WebTitles.length)];
+}
+
+WebTitle.innerHTML = changeWebTitle();
 
 function changeTitle() {
   return titles[Math.floor(Math.random() * titles.length)];
